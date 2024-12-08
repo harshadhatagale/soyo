@@ -3,7 +3,7 @@ import { Roboto } from 'next/font/google'
 import { Poppins } from "next/font/google";
 import { FcGlobe } from "react-icons/fc";
 import { Typewriter } from 'react-simple-typewriter';
-
+import Link from 'next/link';
 const roboto = Roboto({
     subsets: ["latin"],
     weight: ["100", "300", "400", "500", "700", "900"]
@@ -14,17 +14,17 @@ const poppins = Poppins({
 })
 export default function HeroSection() {
     return (
-        <div>
-            <div className="text-center bg-opacity-10 flex flex-col space-y-9 justify-between py-5 items-center bg-cover bg-center h-[400px]" style={{ "backgroundImage": 'url("/rent-house-bg.jpg")' }}>
-                <div>
-                    <h1 className={`flex bg-gradient-to-r from-cyan-300 to-blue-400 bg-clip-text text-transparent text-5xl text-center justify-center items-center font-extrabold w-full ${poppins.className}`}> <Typewriter
-                        words={["SOYO - Student's OYO"]}
-                        cursor
-                        cursorBlinking
-                        cursorColor='red'
-                    /></h1>
-                    <p className='text-2xl mb-36 text-black w-[70%] font-bold my-9 lg:text-3xl text-center mx-auto'>Find Your Perfect Student Accommodation – Affordable, Comfortable, and Convenient!</p>
+        <div className='h-64 bg-gradient-to-b from-gray-500 flex-col to-gray-900 flex justify-center items-center'>
+            <div className='flex flex-col justify-center items-center space-y-2'>
+                <h2 className={`${poppins.className} text-white text-4xl flex justify-center items-center tracking-wider font-extrabold`}>HostelHive</h2>
+                <p className={`${poppins.className} text-slate-300 text-xl lg:text-3xl flex justify-center items-center tracking-wider font-extrabold`}>Your Perfect Stay, One Click Away!</p>
+            </div>
+            <div className='w-[75%] flex-col lg:flex-row flex justify-center items-center bg-transparent lg:bg-white rounded-md h-20 mt-6 px-0 rounded-tl-md rounded-bl-md'>
+                <div className='lg:w-[80%] w-full h-full bg-white'>
+                    <input type="text" name="query" placeholder='Search by Locality' className='bg-transparent text-lg border border-r-black px-4 outline-none h-full w-[80%]' />
+                    <input type="date" name="" id="" className='text-lg border border-r-black px-4 outline-none h-full w-[20%]' />
                 </div>
+                <button className='bg-green-500 text-lg text-white font-bold h-14 w-full lg:w-[20%] rounded-md'>Search</button>
             </div>
         </div>
     )

@@ -7,6 +7,14 @@ import { MdExplore } from "react-icons/md";
 import { FaDonate } from "react-icons/fa";
 import { FaInfoCircle } from "react-icons/fa";
 import { RiMenu3Fill } from "react-icons/ri";
+import { Public_Sans } from "next/font/google";
+import { BsBuildings } from "react-icons/bs";
+import { FaCaretDown } from "react-icons/fa";
+import { IoEarthOutline } from "react-icons/io5";
+const LogoFont = Public_Sans({
+  subsets: ["latin"],
+  weight: ["200", '300', '400', '500', '600', '700', "800", "900"]
+})
 const Navbar = () => {
   const [isNavOpen, setNavOpen] = useState(false)
   const openNav = () => {
@@ -16,45 +24,18 @@ const Navbar = () => {
     setNavOpen(false)
   }
   return (
-    <nav className={`${isNavOpen ? "active-nav" : ""} flex fixed top-0 justify-between w-full px-5 shadow-md items-center bg-red-600 text-white h-16 `}>
-      <div className="w-full h-[64px] flex justify-between items-center lg:w-fit">
-        <div className="text-white font-extrabold text-2xl">
-          <Link href="/">Soyo</Link>
-        </div>
-        <RiMenu3Fill onClick={openNav} size={24} color='white' className='lg:hidden flex justify-center items-center' />
+    <nav className={`${isNavOpen ? "active-nav" : ""} select-none flex fixed top-0 justify-between w-full px-5 shadow-md items-center bg-white text-white h-16 `}>
+      <div className={`${LogoFont.className}`}>
+        <span className="text-3xl text-black logo">HostelHive</span>
       </div>
-
-      <div className={`${isNavOpen ? "active-navlinks" : ""} lg:flex hidden justify-center items-center space-x-5`}>
-        <div className={`${isNavOpen ? "active-links" : ""}  flex justify-center items-center space-x-3`}>
-          <Link
-            href="/"
-            className="font-bold flex space-x-2 justify-center hover:text-cyan-400 items-center"
-          >
-            <IoHome size={20} />
-            <span>Home</span>
-          </Link>
-          <Link
-            href="/explore"
-            className="font-bold flex space-x-2 justify-center hover:text-cyan-400 items-center"
-          >
-            <MdExplore />
-            <span>Explore</span>
-          </Link>
-          <Link
-            href="/about"
-            className="font-bold flex space-x-2 justify-center hover:text-cyan-400 items-center"
-          >
-            <FaInfoCircle />
-            <span>About Us</span>
-          </Link>
-          <Link
-            href="/donation"
-            className="font-bold flex space-x-2 justify-center hover:text-cyan-400 items-center"
-          >
-            <FaDonate />
-            <span>Donate Us</span>
-          </Link>
-        </div>
+      <div className="lg:h-full">
+        <Link href={"/"}></Link>
+        <Link href={"/"}></Link>
+        <Link href={"/"} className="text-black px-2 hover:bg-gray-100 lg:h-full flex font-bold justify-center items-center space-x-1">
+          <IoEarthOutline size={20}/>
+          <span className="text-lg">English</span>
+          <FaCaretDown/>
+        </Link>
       </div>
     </nav>
   );

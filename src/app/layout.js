@@ -1,3 +1,4 @@
+
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 
@@ -12,7 +13,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body>
         <Navbar />
-        <main className="px-4 mt-16">
+        <main className="mt-10">
           {children}
         </main>
       </body>
