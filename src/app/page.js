@@ -5,7 +5,7 @@ import RoomListingSlider from "@/components/sections/RoomListingSlider";
 import DealSection from "@/components/sections/DealSection";
 export default function Home() {
   return (
-    <main className="py-5">
+    <main>
       <HeroSection/>
       <DealSection/>
     </main>

@@ -43,3 +43,36 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
+
+
+
+// const Navbar = () => {
+  
+
+//   return (
+//     <nav className="bg-indigo-600">
+//       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+//         <div className="flex items-center justify-between h-16">
+//           {/* Logo */}
+//           <div className="flex-shrink-0">
+//             <Link href="/">
+//               <a className="text-white text-xl font-bold">RoomFinder</a>
+//             </Link>
+//           </div>
+
+//           {/* Navbar Links */}
+//           <div className="hidden md:flex space-x-8">
+//             <Link href="/">
+//               <a className="text-gray-200 hover:text-white">Home</a>
+//             </Link>
+//             <Link href="/about">
+//               <a className="text-gray-200 hover:text-white">About</a>
+//             </Link>
+
+//             {/* Cities Dropdown */}
+//     </nav>
+//   );
+// };
+
+// export default Navbar;

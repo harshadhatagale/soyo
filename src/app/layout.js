@@ -2,6 +2,7 @@
 import Footer from "@/components/Footer";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
+import CityDrops from "@/components/CityDrops";
 
 
 export const metadata = {
@@ -14,7 +15,8 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body>
         <Navbar />
-        <main className="mt-10">
+        <CityDrops/>
+        <main>
           {children}
         </main>
         <Footer/>
