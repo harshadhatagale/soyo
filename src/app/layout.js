@@ -1,4 +1,5 @@
 
+import Footer from "@/components/Footer";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 
@@ -16,6 +17,7 @@ export default function RootLayout({ children }) {
         <main className="mt-10">
           {children}
         </main>
+        <Footer/>
       </body>
     </html>
   );

@@ -20,7 +20,7 @@ export default function HeroSection() {
                 <p className={`${poppins.className} text-slate-300 text-lg lg:text-3xl flex justify-center items-center tracking-wider font-extrabold`}>Your Perfect Stay, One Click Away!</p>
             </div>
             <div className='w-[90%] lg:w-[75%] flex-col lg:flex-row flex justify-center items-center bg-transparent lg:bg-white rounded-md h-20 lg:h-14 mt-6 px-0 rounded-tl-md rounded-bl-md'>
-                <div className='lg:w-[80%] w-full h-full bg-white'>
+                <div className='lg:w-[80%] w-full h-full bg-white rounded-tl-md rounded-bl-md'>
                     <input type="text" name="query" placeholder='Search by Locality' className='bg-transparent text-lg border border-r-black px-4 outline-none h-full w-[80%]' />
                     <input type="date" name="" id="" className='text-lg border border-r-black px-4 outline-none h-full w-[20%]' />
                 </div>
