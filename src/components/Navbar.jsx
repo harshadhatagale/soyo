@@ -26,11 +26,17 @@ const Navbar = () => {
       <div className="lg:h-full">
         <Link href={"/"}></Link>
         <Link href={"/"}></Link>
-        <Link href={"/"} className="text-black px-2 hover:bg-gray-100 lg:h-full flex font-bold justify-center items-center space-x-1">
-          <IoEarthOutline size={20}/>
-          <span className="text-lg">English</span>
-          <FaCaretDown/>
-        </Link>
+        <div className="flex justify-center items-center space-x-2 h-full">
+          <Link href={'/'} className="text-black px-2 hover:bg-gray-100 lg:h-full flex font-bold justify-center items-center space-x-1">
+            <BsBuildings size={20} />
+            <span className="text-lg hidden lg:block">List your Property</span>
+          </Link>
+          <Link href={"/"} className="text-black px-2 hover:bg-gray-100 lg:h-full flex font-bold justify-center items-center space-x-1">
+            <IoEarthOutline size={20} />
+            <span className="text-lg">English</span>
+            <FaCaretDown />
+          </Link>
+        </div>
       </div>
     </nav>
   );
