@@ -1,7 +1,7 @@
 "use client"
 import React, { useState } from "react";
 import { Poppins } from "next/font/google";
-
+import Link from "next/link";
 const poppins= Poppins({
     subsets:["latin"],
     weight:["100" , "200" , "300" , "400" , "500" , "600" , "700" , "800" , "900"]
@@ -18,9 +18,9 @@ const LoginFormCust = () => {
 
   return (
     <div className={`${poppins.className} flex items-center justify-center min-h-screen bg-gray-100`}>
-      <div className="w-full max-w-md p-8 space-y-6 bg-white rounded-lg shadow-md">
-        <h2 className="text-2xl font-bold text-center text-gray-800">Welcome Back! 👋🏻</h2>
-        <p className="text-sm text-center text-gray-600">
+      <div className="w-full max-w-md p-8 bg-gradient-to-r from-cyan-500 to-blue-500 space-y-6 bg-white rounded-lg shadow-md">
+        <h2 className="text-2xl font-bold text-center text-white">Welcome Back! 👋🏻</h2>
+        <p className="text-sm text-center text-white">
           Sign in to continue.
         </p>
         <form className="space-y-6" onSubmit={handleSubmit}>
@@ -28,7 +28,7 @@ const LoginFormCust = () => {
           <div>
             <label
               htmlFor="email"
-              className="block text-sm font-medium text-gray-700"
+              className="block text-sm font-medium text-white"
             >
               Email Address
             </label>
@@ -46,7 +46,7 @@ const LoginFormCust = () => {
           <div>
             <label
               htmlFor="password"
-              className="block text-sm font-medium text-gray-700"
+              className="block text-sm font-medium text-white"
             >
               Password
             </label>
@@ -62,7 +62,7 @@ const LoginFormCust = () => {
           </div>
           {/* Remember Me */}
           <div className="flex items-center justify-between">
-            <label className="flex items-center text-sm text-gray-700">
+            <label className="flex items-center text-sm text-white">
               <input
                 type="checkbox"
                 className="w-4 h-4 mr-2 border-gray-300 rounded focus:ring-indigo-500"
@@ -84,14 +84,14 @@ const LoginFormCust = () => {
             Sign In
           </button>
         </form>
-        <div className="text-center text-sm text-gray-600">
+        <div className="text-center text-sm text-white">
         Don&apos;t have an account?{" "}
-          <a
-            href="#"
+          <Link
+            href={"/signup/customer"}
             className="font-medium text-indigo-600 hover:underline"
           >
             Sign up
-          </a>
+          </Link>
         </div>
       </div>
     </div>
