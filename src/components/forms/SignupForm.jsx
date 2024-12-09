@@ -33,7 +33,7 @@ const SignupForm = () => {
   };
 
   return (
-    <div className={`${poppins.className} flex my-16 items-center justify-center min-h-screen bg-gray-100`}>
+    <div className={`${poppins.className} flex my-5 items-center justify-center min-h-screen bg-gray-100`}>
       <div className="w-full max-w-lg p-8 bg-gradient-to-r from-cyan-500 to-blue-500 space-y-6 bg-white rounded-lg shadow-md">
         <h2 className="text-2xl font-bold text-center text-white">
           Create Your Account
