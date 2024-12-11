@@ -1,0 +1,332 @@
+[
+    {
+        "name": "Kaveri Amit Mahajan",
+        "image": "/RoomImages/room1.jpg",
+        "address": "01, Kole Nagear, infront of Ramanand Police Station, Jalgaon",
+        "mobile": "9655516374",
+        "room": "1 room (coat bases) (2 girls in a room)",
+        "facilities": "Free electricity and hot water",
+        "cost": "₹1400",
+        "note": "only for girls, time bound – came before 8 pm"
+    },
+    {
+        "name": "Shailesh Anil Karke",
+        "image": "/RoomImages/room2.jpg",
+        "address": "05, Kolhe Nagar, Ramanand, Jalgaon",
+        "mobile": "7555674459",
+        "room": "2 room",
+        "facilities": "Free hot water and western toilet",
+        "cost": "₹2500",
+        "note": "for family and bachelors also"
+    },
+    {
+        "name": "Sunita Indrajit Singh",
+        "image": "/RoomImages/room3.jpg",
+        "address": "02a, Shankarrao Nagar, Jalgaon",
+        "mobile": "9055549011",
+        "room": "1 room (coat bases) (2 Boys in a room)",
+        "facilities": "Free electricity & hot water",
+        "cost": "₹1500",
+        "note": "Boys only, time bound – came before 10 pm"
+    },
+    {
+        "name": "Arya Tejas Mali",
+        "image": "/RoomImages/room4.jpg",
+        "address": "Arjit, 05, Shankarrao Nagar, Jalgaon",
+        "mobile": "8555135518",
+        "room": "1 room (coat bases) (3 girls in a room)",
+        "facilities": "Free electricity & hot water",
+        "cost": "₹1200",
+        "note": "Only for girls"
+    },
+    {
+        "name": "Nilesh Mahesh Zade",
+        "image": "/RoomImages/room5.jpg",
+        "address": "Vaibhav, 07b, Shankarrao Nagar, Jalgaon",
+        "mobile": "9255540473",
+        "room": "1 room (coat bases) (2 Boys in a room)",
+        "facilities": "Free electricity & hot water",
+        "cost": "₹1400",
+        "note": "Boys only"
+    },
+    {
+        "name": "Suhas Sambhaji Kende",
+        "image": "/RoomImages/room6.jpg",
+        "address": "01, Kashinath Nagar, Jalgaon",
+        "mobile": "9755534621",
+        "room": "1 room (coat bases) (3 Boys in a room)",
+        "facilities": "Free electricity & hot water",
+        "cost": "₹1400",
+        "note": "Boys only, time bound – came before 10 pm"
+    },
+    {
+        "name": "Darshan Vikas Patil",
+        "image": "/RoomImages/room7.jpg",
+        "address": "Sudha, 08, Kashinath Nagar, Jalgaon",
+        "mobile": "9955568661",
+        "room": "2 room",
+        "facilities": "Free hot water and western toilet",
+        "cost": "₹2400",
+        "note": "for family only"
+    },
+    {
+        "name": "Gopal Abhay Chaudhari",
+        "image": "/RoomImages/room8.jpg",
+        "address": "Om, 09b Kashinath Nagar, Jalgaon",
+        "mobile": "8555561168",
+        "room": "1 room (coat bases) (2 girls in a room)",
+        "facilities": "Free electricity, hot water, and western toilet",
+        "cost": "₹1400",
+        "note": "Only for girls, time bound – came before 8:30 pm"
+    },
+    {
+        "name": "Pranav Yogesh Patil",
+        "image": "/RoomImages/room9.jpg",
+        "address": "Patil Niwas, 04, Ayodhya Nagar, Jalgaon",
+        "mobile": "9255591121",
+        "room": "1 room (coat bases) (2 girls in a room)",
+        "facilities": "Free electricity and hot water",
+        "cost": "₹1400",
+        "note": "Only for girls, time bound – came before 9 pm"
+    },
+    {
+        "name": "Raj Rahul Kale",
+        "image": "/RoomImages/room10.jpg",
+        "address": "Kamal Kunj, 06, Ayodhya Nagar, Jalgaon",
+        "mobile": "7555180415",
+        "room": "1BHK room",
+        "facilities": "Free hot water and western toilet",
+        "cost": "₹3500",
+        "note": "For family and bachelors also"
+    },
+    {
+        "name": "Rakesh Suraj Patil",
+        "image": "/RoomImages/room11.jpg",
+        "address": "Kamal, 11a, Ayodhya Nagar, Jalgaon",
+        "mobile": "7428730894",
+        "room": "1 room (coat bases) (2 Boys in a room)",
+        "facilities": "Free electricity & hot water",
+        "cost": "₹1500",
+        "note": "Boys only, time bound – came before 9:30 pm"
+    },
+    {
+        "name": "Aditya Raju Patil",
+        "image": "/RoomImages/room12.jpg",
+        "address": "Yog, 03, Vithoba Nagar, Jalgaon",
+        "mobile": "7428723247",
+        "room": "1 room (coat bases) (2 Boys in a room)",
+        "facilities": "Free electricity, hot water, and western toilet",
+        "cost": "₹1600",
+        "note": "Boys only, time bound – came before 10 pm"
+    },
+    {
+        "name": "Davesh Aditya Wagh",
+        "image": "/RoomImages/room13.jpg",
+        "address": "Pratik, 05b, Vithoba Nagar, Jalgaon",
+        "mobile": "7699524930",
+        "room": "2 room",
+        "facilities": "Free hot water and western toilet",
+        "cost": "₹3200",
+        "note": "For family only"
+    },
+    {
+        "name": "Sahil Prem Badgujar",
+        "image": "/RoomImages/room14.jpg",
+        "address": "Shri, 07, Vithoba Nagar, Jalgaon",
+        "mobile": "9720864657",
+        "room": "1 room (coat bases) (2 girls in a room)",
+        "facilities": "Free electricity and hot water",
+        "cost": "₹1400",
+        "note": "Only for girls"
+    },
+    {
+        "name": "Akash Rajesh Raisinghania",
+        "image": "/RoomImages/room15.jpg",
+        "address": "Shanti, 01, Balaji Peth, Jalgaon",
+        "mobile": "8846455646",
+        "room": "1BHK room",
+        "facilities": "Free hot water and western toilet",
+        "cost": "₹3800",
+        "note": "For family and bachelors also"
+    },
+    {
+        "name": "Pratik Kamlesh Jatti",
+        "image": "/RoomImages/room16.jpg",
+        "address": "Vishal, 06a, Balaji Peth, Jalgaon",
+        "mobile": "8888455874",
+        "room": "2 room",
+        "facilities": "Free hot water and western toilet",
+        "cost": "₹3000",
+        "note": "For family and bachelors also"
+    },
+    {
+        "name": "Prem Manohar Vyas",
+        "image": "/RoomImages/room17.jpg",
+        "address": "Pargh, 07, Balaji Peth, Jalgaon",
+        "mobile": "9355564810",
+        "room": "1 room (coat bases) (2 girls in a room)",
+        "facilities": "Free electricity and hot water",
+        "cost": "₹1400",
+        "note": "Only for girls, time bound – came before 8:30 pm"
+    },
+    {
+        "name": "Madhavi Yash Shinde",
+        "image": "/RoomImages/room18.jpg",
+        "address": "Shinde Niwas, 02, Sagar Nagar, Jalgaon",
+        "mobile": "9155573581",
+        "room": "1 room (coat bases) (2 girls in a room)",
+        "facilities": "Free electricity, hot water, and western toilet",
+        "cost": "₹1600",
+        "note": "Only for girls, time bound – came before 8 pm"
+    },
+    {
+        "name": "Eknath Ajay Patil",
+        "image": "/RoomImages/room19.jpg",
+        "address": "Kedar, 06, Sagar Nagar, Jalgaon",
+        "mobile": "7555017122",
+        "room": "2 room",
+        "facilities": "Free hot water and western toilet",
+        "cost": "₹2900",
+        "note": "For family and bachelors also"
+    },
+    {
+        "name": "Anil Ankit Borole",
+        "image": "/RoomImages/room20.jpg",
+        "address": "Prayag, 07, Sunil Nagar, Jalgaon",
+        "mobile": "9955557942",
+        "room": "1 room (coat bases) (2 Boys in a room)",
+        "facilities": "Free electricity & hot water",
+        "cost": "₹1500",
+        "note": "Only for boys"
+    },
+    {
+        "name": "Anuradha Anuragh Badgujar",
+        "image": "/RoomImages/room21.jpg",
+        "address": "10b, Sunil Nagar, Jalgaon",
+        "mobile": "9355588344",
+        "room": "2 room",
+        "facilities": "Free hot water and western toilet",
+        "cost": "₹2500",
+        "note": "For family and bachelors also"
+    },
+    {
+        "name": "Pavan Arjun Sharma",
+        "image": "/RoomImages/room22.jpg",
+        "address": "Divya, 02, Premchand Nagar, Jalgaon",
+        "mobile": "8555477877",
+        "room": "1 room (coat bases) (2 girls in a room)",
+        "facilities": "Free electricity and hot water",
+        "cost": "₹1500",
+        "note": "Only for girls, time bound – came before 8 pm"
+    },
+    {
+        "name": "Ashish Bhuvan Nagar",
+        "image": "/RoomImages/room23.jpg",
+        "address": "Kishor, 06, Premchand Nagar, Jalgaon",
+        "mobile": "7555283999",
+        "room": "2 room",
+        "facilities": "Free hot water and western toilet",
+        "cost": "₹3800",
+        "note": "For family and bachelors also"
+    },
+    {
+        "name": "Ayush Shekhar Ahuja",
+        "image": "/RoomImages/room24.jpg",
+        "address": "Paresh, 03, Parvati Nagar, Ramanand, Jalgaon",
+        "mobile": "7555400008",
+        "room": "2 room",
+        "facilities": "Free hot water and western toilet",
+        "cost": "₹3600",
+        "note": "For family and bachelors also"
+    },
+    {
+        "name": "Chetan Ramesh Chaudhari",
+        "image": "/RoomImages/room25.jpg",
+        "address": "Tushar, 05, Parvati Nagar, Ramanand, Jalgaon",
+        "mobile": "8555939620",
+        "room": "1 room (coat bases) (2 girls in a room)",
+        "facilities": "Free electricity and hot water",
+        "cost": "₹1500",
+        "note": "Only for girls, time bound – came before 8 pm"
+    },
+    {
+        "name": "Akshay Satish Patil",
+        "image": "/RoomImages/room26.jpg",
+        "address": "Prashant, 08, Parvati Nagar, Ramanand, Jalgaon",
+        "mobile": "8555336617",
+        "room": "1 room (coat bases) (2 Boys in a room)",
+        "facilities": "Free electricity & hot water",
+        "cost": "₹1600",
+        "note": "Boys only, time bound – came before 10 pm"
+    },
+    {
+        "name": "Atharav Balaji Sudame",
+        "image": "/RoomImages/room27.jpg",
+        "address": "12, Parvati Nagar, Ramanand, Jalgaon",
+        "mobile": "9655565427",
+        "room": "1 room (coat bases) (2 Boys in a room)",
+        "facilities": "Free electricity & hot water",
+        "cost": "₹1400",
+        "note": "Boys only, time bound – came before 10 pm"
+    },
+    {
+        "name": "Krishna Sanjay Patil",
+        "image": "/RoomImages/room28.jpg",
+        "address": "Krishna, 06a, Shiv Colony, Jalgaon",
+        "mobile": "85555414847",
+        "room": "1 room (coat bases) (2 girls in a room)",
+        "facilities": "Free electricity, hot water, and western toilet",
+        "cost": "₹1600",
+        "note": "Only for girls, time bound – came before 8:30 pm"
+    },
+    {
+        "name": "Rohit Gurunath Sharma",
+        "image": "/RoomImages/room29.jpg",
+        "address": "09, Shiv Colony, Jalgaon",
+        "mobile": "8555952262",
+        "room": "1 room (coat bases) (2 Boys in a room)",
+        "facilities": "Free electricity & hot water",
+        "cost": "₹1400",
+        "note": "Only for boys"
+    },
+    {
+        "name": "Kailas Kapil Munde",
+        "image": "/RoomImages/room30.jpg",
+        "address": "Pravin, 10b, Shiv Colony, Jalgaon",
+        "mobile": "9955597016",
+        "room": "1 room (coat bases) (2 Boys in a room)",
+        "facilities": "Free electricity & hot water",
+        "cost": "₹1500",
+        "note": "Boys only, time bound – came before 10 pm"
+    },
+    {
+        "name": "Ajay Kumar Sharma",
+        "image": "/RoomImages/room31.jpg",
+        "address": "04, Shankar Nagar, Jalgaon",
+        "mobile": "9865543210",
+        "room": "1 room (coat bases) (2 boys in a room)",
+        "facilities": "Free electricity and hot water",
+        "cost": "₹1400",
+        "note": "Only for boys, time bound – came before 10 pm"
+    },
+    {
+        "name": "Kiran Rajesh Malhotra",
+        "image": "/RoomImages/room32.jpg",
+        "address": "Block C, Sarita Apartments, Jalgaon",
+        "mobile": "8123456789",
+        "room": "2 rooms",
+        "facilities": "Free hot water, western toilet, and parking",
+        "cost": "₹3200",
+        "note": "For family only"
+    },
+    {
+        "name": "Ravi Suresh Patil",
+        "image": "/RoomImages/room33.jpg",
+        "address": "09, Vaibhav Nagar, Jalgaon",
+        "mobile": "9321554012",
+        "room": "1BHK",
+        "facilities": "Western toilet and free electricity",
+        "cost": "₹3500",
+        "note": "For family and bachelors"
+    }
+]
