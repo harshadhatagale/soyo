@@ -30,7 +30,7 @@ const Contact = () => {
           <h1 className="text-4xl font-bold text-gray-800">Contact Us</h1>
           <p className="mt-4 text-gray-600">
             Have a question, feedback, or need assistance? Reach out to us, and
-            we'll get back to you as soon as possible.
+            we&apos;ll get back to you as soon as possible.
           </p>
         </div>
 
