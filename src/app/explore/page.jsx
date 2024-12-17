@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-
+import Link from "next/link";
 const ExplorePage = () => {
   const [rooms, setRooms] = useState([]);
   const [loading, setLoading] = useState(true);
@@ -40,7 +40,7 @@ const ExplorePage = () => {
               alt={room.title}
               className="w-full h-48 object-cover rounded-md mb-4"
             />
-            <h2 className="text-xl font-semibold">{room.room}</h2>
+            <Link href={`/explore/${room.id}`} className="text-xl font-semibold">{room.room}</Link>
             <p className="text-gray-600">{room.description}</p>
             <p className="text-lg font-bold mt-2">{room.cost}</p>
           </div>

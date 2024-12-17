@@ -20,7 +20,7 @@ const Footer = () => {
             <Link href="/about">
               <span className="hover:text-white">About Us</span>
             </Link>
-            <Link href="/rooms">
+            <Link href="/explore">
               <span className="hover:text-white">Rooms</span>
             </Link>
             <Link href="/contact-us">

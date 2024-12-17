@@ -32,7 +32,7 @@ export default function ExploreSection() {
     <div className="container mx-auto p-4">
       <h1 className="text-2xl font-bold mb-4">Available Rooms</h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-        {rooms.slice(0,10).map((room, index) => (
+        {rooms.slice(0, 10).map((room, index) => (
           <div
             key={index}
             className="bg-white shadow-lg rounded-lg p-4 hover:shadow-xl transition-shadow"
@@ -42,7 +42,7 @@ export default function ExploreSection() {
               alt={room.title}
               className="w-full h-48 object-cover rounded-md mb-4"
             />
-            <h2 className="text-xl font-semibold">{room.room}</h2>
+            <Link href={`/explore/${room.id}`} className="text-xl font-semibold">{room.room}</Link>
             <p className="text-gray-600">{room.description}</p>
             <p className="text-lg font-bold mt-2">{room.cost}</p>
           </div>
