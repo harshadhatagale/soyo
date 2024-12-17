@@ -80,12 +80,12 @@ const About = () => {
             Discover the perfect living space tailored to your needs with
             HostelHive.
           </p>
-          <a
+          <Link
             href="/explore"
             className="px-6 py-3 bg-indigo-600 text-white font-bold rounded-lg shadow-lg hover:bg-indigo-700"
           >
             Explore Rooms
-          </a>
+          </Link>
         </div>
       </div>
     </div>
