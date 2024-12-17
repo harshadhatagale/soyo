@@ -6,7 +6,7 @@ import CityDrops from "@/components/CityDrops";
 
 
 export const metadata = {
-  title: "Soyo",
+  title: "HostelHive",
   description: "The student's Oyo",
 };
 
